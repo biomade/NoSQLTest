@@ -1,0 +1,24 @@
+{
+  "name": "nosqltest",
+  "version": "0.0.1",
+  "description": "learn and test NOSQL to see if it meets my needs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biomade/NoSQLTest.git"
+  },
+  "keywords": [
+    "Node",
+    "NoSQL"
+  ],
+  "author": "laurie kern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biomade/NoSQLTest/issues"
+  },
+  "homepage": "https://github.com/biomade/NoSQLTest#readme"
+}
