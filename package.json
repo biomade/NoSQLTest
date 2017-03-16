@@ -4,8 +4,9 @@
   "description": "learn and test NOSQL to see if it meets my needs",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "node nosql.js",
+    "test2": "node IndexedDB.js",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
