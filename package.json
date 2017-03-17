@@ -4,8 +4,9 @@
   "description": "learn and test NOSQL to see if it meets my needs",
   "main": "index.js",
   "scripts": {
-    "test1": "node nosql.js",
-    "test2": "node IndexedDB.js",
+    "CreateDB": "node create.js",
+    "InsertUnique": "node insertUnique.js",
+    "SelectItem": "node select.js",
     "start": "node ."
   },
   "repository": {
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/biomade/NoSQLTest/issues"
   },
-  "homepage": "https://github.com/biomade/NoSQLTest#readme"
+  "homepage": "https://github.com/biomade/NoSQLTest#readme",
+  "dependencies": {
+    "nosql": "^5.0.3"
+  },
+  "devDependencies": {}
 }
