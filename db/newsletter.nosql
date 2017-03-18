@@ -1,2 +1,4 @@
-{"name":"laurie","email":"laurie@gmail.com"}
-{"name":"erich","email":"erich@gmail.com"}
+{"id":1,"name":"laurie","email":"laurie@gmail.com"}
+{"id":2,"name":"erich","email":"erich@gmail.com"}
+{"id":3,"name":"mary","email":"mary@gmail.com"}
+{"id":12,"name":{"first":"jon","last":"doe"},"address":{"street":"123 main","city":"NYC","state":"NY","zip":"11760"}}

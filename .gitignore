@@ -1,3 +1,7 @@
+# db folder and test files
+db
+db/*.nosql
+
 # Logs
 logs
 *.log

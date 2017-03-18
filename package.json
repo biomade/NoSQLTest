@@ -4,9 +4,12 @@
   "description": "learn and test NOSQL to see if it meets my needs",
   "main": "index.js",
   "scripts": {
-    "CreateDB": "node create.js",
-    "InsertUnique": "node insertUnique.js",
-    "SelectItem": "node select.js",
+    "CreateDB": "node nosql/create.js",
+    "InsertUnique": "node nosql/insertUnique.js",
+    "SelectItem": "node nosql/select.js",
+    "AutoIncrement": "node nosql/autoincrement.js",
+    "Complex": "node nosql/insertComplex.js",
+    "Counter": "node nosql/counter.js",
     "start": "node ."
   },
   "repository": {
