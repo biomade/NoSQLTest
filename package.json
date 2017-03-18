@@ -4,13 +4,16 @@
   "description": "learn and test NOSQL to see if it meets my needs",
   "main": "index.js",
   "scripts": {
-    "CreateDB": "node nosql/create.js",
-    "InsertUnique": "node nosql/insertUnique.js",
-    "SelectItem": "node nosql/select.js",
-    "AutoIncrement": "node nosql/autoincrement.js",
-    "Complex": "node nosql/insertComplex.js",
-    "Counter": "node nosql/counter.js",
-    "start": "node ."
+    "Createns": "node nosql/create.js",
+    "InsertUniquens": "node nosql/insertUnique.js",
+    "SelectItemns": "node nosql/select.js",
+    "AutoIncremennst": "node nosql/autoincrement.js",
+    "Complexns": "node nosql/insertComplex.js",
+    "Counterns": "node nosql/counter.js",
+    "start": "node .",
+    "createtaffy": "node taffy/create.js",
+    "createldb": "node lowdb/create.js",
+    "getlb": "node lowdb/read.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,10 @@
   },
   "homepage": "https://github.com/biomade/NoSQLTest#readme",
   "dependencies": {
+    "lodash-id": "^0.14.0",
+    "lowdb": "^0.16.0",
+    "node-taffydb": "^0.2.0",
+    "node-uuid": "^1.4.7",
     "nosql": "^5.0.3"
   },
   "devDependencies": {}
