@@ -12,8 +12,8 @@
     "Counterns": "node nosql/counter.js",
     "start": "node .",
     "createtaffy": "node taffy/create.js",
-    "createldb": "node lowdb/create.js",
-    "getlb": "node lowdb/read.js"
+    "createldb": "node ./lowdb/create.js",
+    "getlb": "node ./lowdb/read.js"
   },
   "repository": {
     "type": "git",
