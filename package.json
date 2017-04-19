@@ -13,7 +13,7 @@
     "start": "node .",
     "createtaffy": "node taffy/create.js",
     "createldb": "node ./lowdb/create.js",
-    "getlb": "node ./lowdb/read.js"
+    "readldb": "node ./lowdb/read.js"
   },
   "repository": {
     "type": "git",
